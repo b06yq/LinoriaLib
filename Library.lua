@@ -3508,6 +3508,9 @@ function Library:CreateWindow(...)
     local Fading = false;
 
     function Library:Toggle()
+       InputService.MouseIconEnabled = true
+
+
         if Fading then
             return;
         end;
