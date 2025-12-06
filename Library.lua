@@ -1257,7 +1257,7 @@ Event = InputService.InputBegan:Connect(function(Input)
 
     if Input.UserInputType == Enum.UserInputType.Keyboard then
         if Input.KeyCode == Enum.KeyCode.Escape then
-            Key = 'None';
+            Key = '';
         else
             Key = Input.KeyCode.Name;
         end;
